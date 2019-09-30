@@ -20,17 +20,6 @@ app.use(bodyParser.json());
 /** custom backend middleware */
 app.use('/api', myApi);
 
-/** general error handler */
-
-// eslint-disable-next-line no-unused-vars
-// app.use( (err, res) => {
-//   res.status(err.status || 500);
-//   return res.json({
-//     status: err.status,
-//     message: err.message,
-//   });
-// });
-
 // In production we need to pass these values in instead of relying on webpack
 setup(app, {
   outputPath: resolve(process.cwd(), 'build'),
