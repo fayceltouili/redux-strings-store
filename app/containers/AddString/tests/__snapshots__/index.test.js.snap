@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddString /> should render and match the snapshot 1`] = `
+<article>
+  <section
+    class="Section-sc-18n5ohj-0 dPYDU"
+  >
+    <form
+      class="Form-sc-148ipml-0 hVyDgC"
+    >
+      <label
+        for="newString"
+      >
+        <input
+          class="Input-i9rmlz-0 caCtWU"
+          id="newString"
+          placeholder="Enter something"
+          type="text"
+          value=""
+        />
+      </label>
+      <button
+        class="button-dkh3p2-0 iEwNap"
+        disabled=""
+      >
+        Add
+      </button>
+    </form>
+  </section>
+  <section
+    class="Section-sc-18n5ohj-0 dPYDU"
+  />
+</article>
+`;

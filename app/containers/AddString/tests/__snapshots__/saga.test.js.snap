@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addString Saga should call the stringAddingError action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+  "type": "SELECT",
+}
+`;
+
+exports[`addString Saga should call the stringAddingError action if the response errors 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "http://localhost:3000/api/add",
+      Object {
+        "body": "{\\"id\\":\\"722515b9-e4bc-4d28-8e17-1b9ccea7d780\\",\\"text\\":{\\"id\\":\\"a5bf98c-7cfe-4531-b321-c9e99c4ce658\\",\\"text\\":\\"JavaScript\\"}}",
+        "headers": Object {
+          "Content-Type": "application/json",
+        },
+        "method": "POST",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;
+
+exports[`addString Saga should dispatch the dataLoaded action if it requests the data successfully 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [],
+    "selector": [Function],
+  },
+  "type": "SELECT",
+}
+`;
+
+exports[`addString Saga should dispatch the dataLoaded action if it requests the data successfully 2`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "combinator": false,
+  "payload": Object {
+    "args": Array [
+      "http://localhost:3000/api/add",
+      Object {
+        "body": "{\\"id\\":\\"907c54a7-71d2-48aa-8f4e-cd7bfca930ff\\",\\"text\\":{\\"id\\":\\"a5bf98c-7cfe-4531-b321-c9e99c4ce658\\",\\"text\\":\\"JavaScript\\"}}",
+        "headers": Object {
+          "Content-Type": "application/json",
+        },
+        "method": "POST",
+      },
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+  "type": "CALL",
+}
+`;

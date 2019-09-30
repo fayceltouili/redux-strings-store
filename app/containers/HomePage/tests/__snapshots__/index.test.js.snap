@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage /> should render and match the snapshot 1`] = `
+<article>
+  <section
+    class="Section-sc-1eulrsm-0 eTEsZl"
+  >
+    <div
+      class="Wrapper-sc-1umgotm-0 laCwDT"
+    >
+      <ul
+        class="Ul-mwnq6h-0 jcxXFy"
+      >
+        <li
+          class="Wrapper-euo0oy-0 jLvxtc"
+        >
+          <div
+            class="Item-sc-3y9mie-0 fKXSkT"
+          >
+            No data available to display, please add some strings!
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</article>
+`;
